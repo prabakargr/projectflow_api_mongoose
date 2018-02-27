@@ -4,7 +4,7 @@ var mongoose=require('mongoose');
 
 var bodyParser=require('body-parser');
 
-var usersRouter=require('./user/usersRouter');
+var usersRouter=require('./usersRouter');
 
 var db=mongoose.connect("mongodb://project:tracking@ds229648.mlab.com:29648/project_tracking")
 
